@@ -1,0 +1,122 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        header .logo {
+            font-size: 1.5em;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .hero {
+            background-color: #e2e2e2;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .hero h2 {
+            margin-top: 0;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        .gallery img {
+            width: 30%;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .form-container {
+            background-color: #f4f4f4;
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            margin: 40px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+         
+        .form-container form {
+            display: flex;
+            flex-direction: column;
+        }
+         
+        .form-container label {
+            margin-bottom: 5px;
+            font-size: 16px;
+            color: #333;
+        }
+         
+        .form-container input[type="text"],
+        .form-container input[type="email"],
+        .form-container textarea {
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            outline: none;
+        }
+         
+        .form-container textarea {
+            height: 120px;
+            resize: none;
+        }
+         
+        .form-container button {
+            padding: 10px 20px;
+            background-color: #0055cc;
+            color: white;
+            font-size: 18px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+         
+        .form-container button:hover {
+            background-color: #003399;
+        }
+         
